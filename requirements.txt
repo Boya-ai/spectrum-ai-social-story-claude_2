@@ -263,7 +263,7 @@ gunicorn==20.1.0
 h11==0.14.0
 h2==4.1.0
 h5py==3.8.0
-hazm==0.9.0
+hazm==0.9.1
 hnswlib==0.7.0
 hpack==4.0.0
 html5lib==1.1
