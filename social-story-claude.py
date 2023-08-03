@@ -15,7 +15,7 @@ organizations = client.get_organizations()
 claude_obj = claude_wrapper.ClaudeWrapper(client, organizations[0]['uuid']) # type: ignore
 
 # Set conversation context
-conversation_uuid = "5fe8981f-7ea4-4fc4-98fd-5f5b86e63cfd"
+conversation_uuid = "21a85e74-6262-45f2-9667-94fcc7d0a959"
 claude_obj.set_conversation_context(conversation_uuid)
 
 # Streamlit app
